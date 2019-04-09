@@ -1,0 +1,68 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.linksafrica.mobileapp" version="11.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
+    <name>LinksAfrica.net</name>
+    <description>
+        Links Africa offers exclusive advertisement and promotional services
+    </description>
+    <author email="linksafrica2017@gmail.com" href="http://phonegap.com">
+        LinksAfrica Team
+    </author>
+    <content src="index.html" />
+    <access launch-external="yes" origin="whatsapp:*" />
+    <preference name="DisallowOverscroll" value="true" />
+    <preference name="android-minSdkVersion" value="14" />
+    <preference name="SplashScreenDelay" value="10000" />
+    <icon src="icon.png" />
+    <platform name="android">
+        <splash density="port-ldpi" src="www/res/screen/android/drawable-port-ldpi-screen.jpg" />
+        <splash density="port-mdpi" src="www/res/screen/android/drawable-port-mdpi-screen.jpg" />
+        <splash density="port-hdpi" src="www/res/screen/android/drawable-port-hdpi-screen.jpg" />
+        <splash density="port-xhdpi" src="www/res/screen/android/drawable-port-xhdpi-screen.jpg" />
+        <splash density="port-xxhdpi" src="www/res/screen/android/drawable-port-xxhdpi-screen.jpg" />
+        <splash density="port-xxxhdpi" src="www/res/screen/android/drawable-port-xxxhdpi-screen.jpg" />
+    </platform>
+    <platform name="ios">
+        <splash height="1136" platform="ios" src="www/res/screen/ios/Default-568h@2x~iphone.jpg" width="640" />
+        <splash height="1334" platform="ios" src="www/res/screen/ios/Default-667h.jpg" width="750" />
+        <splash height="2208" platform="ios" src="www/res/screen/ios/Default-736h.jpg" width="1242" />
+        <splash height="1242" platform="ios" src="www/res/screen/ios/Default-Landscape-736h.jpg" width="2208" />
+        <splash height="1536" platform="ios" src="www/res/screen/ios/Default-Landscape@2x~ipad.jpg" width="2048" />
+        <splash height="768" platform="ios" src="www/res/screen/ios/Default-Landscape~ipad.jpg" width="1024" />
+        <splash height="2048" platform="ios" src="www/res/screen/ios/Default-Portrait@2x~ipad.jpg" width="1536" />
+        <splash height="1024" platform="ios" src="www/res/screen/ios/Default-Portrait~ipad.jpg" width="768" />
+        <splash height="960" platform="ios" src="www/res/screen/ios/Default@2x~iphone.jpg" width="640" />
+        <splash height="480" platform="ios" src="www/res/screen/ios/Default~iphone.jpg" width="320" />
+    </platform>
+    <platform name="wp8">
+        <splash height="1280" platform="wp8" src="www/res/screen/wp8/screen-portrait.jpg" width="768" />
+    </platform>
+    <platform name="windows">
+        <splash height="300" platform="windows" src="www/res/screen/windows/SplashScreen.scale-100.png" width="620" />
+        <splash height="1920" platform="windows" src="www/res/screen/windows/SplashScreenPhone.scale-240.png" width="1152" />
+    </platform>
+    <access origin="*" />
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+    <allow-intent href="tel:*" />
+    <allow-intent href="sms:*" />
+    <allow-intent href="mailto:*" />
+    <allow-intent href="geo:*" />
+    <allow-intent href="whatsapp:*" />
+    <platform name="android">
+        <allow-intent href="market:*" />
+    </platform>
+    <engine name="android" spec="^6.3.0" />
+    <plugin name="cordova-plugin-battery-status" spec="~1.2.4" />
+    <plugin name="cordova-plugin-camera" spec="~2.4.1" />
+    <plugin name="cordova-plugin-media-capture" spec="~1.4.3" />
+    <plugin name="cordova-plugin-device" spec="~1.1.6" />
+    <plugin name="cordova-plugin-dialogs" spec="~1.3.3" />
+    <plugin name="cordova-plugin-file" spec="~4.3.3" />
+    <plugin name="cordova-plugin-geolocation" spec="~2.4.3" />
+    <plugin name="cordova-plugin-globalization" spec="~1.0.7" />
+    <plugin name="cordova-plugin-inappbrowser" spec="~1.7.1" />
+    <plugin name="cordova-plugin-network-information" spec="~1.3.3" />
+    <plugin name="cordova-plugin-vibration" spec="~2.1.5" />
+    <plugin name="cordova-plugin-splashscreen" spec="~5.0.2" />
+    <plugin name="cordova-plugin-x-socialsharing" spec="git+https://github.com/EddyVerbruggen/SocialSharing-PhoneGap-Plugin.git" />
+</widget>

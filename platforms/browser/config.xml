@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.linksafrica.mobileapp" version="11.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0" xmlns:gap="http://phonegap.com/ns/1.0">
+    <name>LinksAfrica.net</name>
+    <description>
+        Links Africa offers exclusive advertisement and promotional services
+    </description>
+    <author email="linksafrica2017@gmail.com" href="http://phonegap.com">
+        LinksAfrica Team
+    </author>
+    <content src="index.html" />
+    <access launch-external="yes" origin="whatsapp:*" />
+    <icon src="icon.png" />
+    <access origin="*" />
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+    <allow-intent href="tel:*" />
+    <allow-intent href="sms:*" />
+    <allow-intent href="mailto:*" />
+    <allow-intent href="geo:*" />
+    <allow-intent href="whatsapp:*" />
+    <preference name="DisallowOverscroll" value="true" />
+    <preference name="android-minSdkVersion" value="14" />
+    <preference name="SplashScreenDelay" value="10000" />
+</widget>
