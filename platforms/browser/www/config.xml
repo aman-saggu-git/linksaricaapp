@@ -10,6 +10,10 @@
     <content src="index.html" />
     <access launch-external="yes" origin="whatsapp:*" />
     <icon src="icon.png" />
+    <icon height="180" platform="ios" src="icon-60@3x.png" width="180" />
+    <icon height="120" platform="ios" src="icon-60@2x.png" width="120" />
+    <icon height="76" platform="ios" src="icon-76.png" width="76" />
+    <icon height="152" platform="ios" src="icon-76@2x.png" width="152" />
     <access origin="*" />
     <allow-intent href="http://*/*" />
     <allow-intent href="https://*/*" />
