@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="com.linksafrica.mobileapp" version="11.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
+<widget id="com.linksafrica.mobileapp" version="11.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
     <name>LinksAfrica.net</name>
     <description>
         Links Africa offers exclusive advertisement and promotional services
@@ -12,7 +12,7 @@
     <preference name="DisallowOverscroll" value="true" />
     <preference name="android-minSdkVersion" value="14" />
     <preference name="SplashScreenDelay" value="10000" />
-    <icon src="icon.png" />
+    <icon src="icon.png" gap:role="default" />    
     
         <!-- iPhone 6 / 6+ -->
     <icon src="icon-60@3x.png" platform="ios" width="180" height="180" />
@@ -88,5 +88,5 @@
     <plugin name="cordova-plugin-network-information" spec="~1.3.3" />
     <plugin name="cordova-plugin-vibration" spec="~2.1.5" />
     <plugin name="cordova-plugin-splashscreen" spec="~5.0.2" />
-    
+    <plugin name="cordova-plugin-x-socialsharing" spec="git+https://github.com/EddyVerbruggen/SocialSharing-PhoneGap-Plugin.git" />
 </widget>
