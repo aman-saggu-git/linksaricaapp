@@ -56,8 +56,12 @@
     <string/>
     <key>NSPhotoLibraryUsageDescription</key>
     <string>This app requires photo library access to function properly.</string>
+    <key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+    <string>$(PRODUCT_NAME) needs Location access for "some reason"!</string>
     <key>NSLocationWhenInUseUsageDescription</key>
-    <string/>
+    <string>$(PRODUCT_NAME) needs Location access for "some reason"!</string>
+    <key>NSLocationAlwaysUsageDescription</key>
+    <string>$(PRODUCT_NAME) needs Location access for "some reason"!</string>
     <key>NSMicrophoneUsageDescription</key>
     <string/>
     <key>NSPhotoLibraryAddUsageDescription</key>
