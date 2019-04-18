@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="com.linksafrica.mobileapp" version="11.0.9" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
+<widget id="com.linksafrica.mobileapp" version="11.0.10" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
     <name>LinksAfrica.net</name>
     <description>
         Links Africa offers exclusive advertisement and promotional services
@@ -12,6 +12,8 @@
     <preference name="DisallowOverscroll" value="true" />
     <preference name="android-minSdkVersion" value="14" />
     <preference name="SplashScreenDelay" value="10000" />
+    <preference name="phonegap-version" value="cli-7.1.0" />
+    <icon src="www/res/icon/ios/icon.png" width="1024" height="1024" />
     <platform name="android">
         <splash density="port-ldpi" src="www/res/screen/android/drawable-port-ldpi-screen.jpg" />
         <splash density="port-mdpi" src="www/res/screen/android/drawable-port-mdpi-screen.jpg" />
@@ -24,7 +26,7 @@
        
                 <!-- iPhone 6 / 6+ -->
         <icon src="www/res/icon/ios/icon-60@3x.png" platform="ios" width="180" height="180" />
-        <icon src="www/res/icon/ios/icon-1024.png" platform="ios" width="1024" height="1024" />
+        <icon src="www/res/icon/ios/icon.png" platform="ios" width="1024" height="1024" />
 
         <!-- iPhone / iPod Touch  -->
         <icon src="www/res/icon/ios/icon-60.png" platform="ios" width="60" height="60" />
