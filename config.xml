@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="com.linksafrica.mobileapp" version="11.0.10" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
+<widget id="com.linksafrica.mobileapp" version="11.0.11" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
     <name>LinksAfrica.net</name>
     <description>
         Links Africa offers exclusive advertisement and promotional services
@@ -46,7 +46,14 @@
         <icon src="www/res/icon/ios/icon-small-40.png" platform="ios" width="40" height="40" />
         <icon src="www/res/icon/ios/icon-small-40@2x.png" platform="ios" width="80" height="80" />
         <icon src="www/res/icon/ios/icon-small-40@3x.png" platform="ios" width="120" height="120" />
-
+        
+        <config-file parent="NSPhotoLibraryUsageDescription" platform="ios" target="*-Info.plist">
+            <string>You can upload your profile picture using your Photo Library</string>
+        </config-file>
+        <config-file parent="NSLocationAlwaysUsageDescription" platform="ios" target="*-Info.plist">
+            <string>This App Requires Access To Your Location</string>
+        </config-file>
+        
     </platform>
     <platform name="wp8">
         <splash height="1280" platform="wp8" src="www/res/screen/wp8/screen-portrait.jpg" width="768" />
